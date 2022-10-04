@@ -16,6 +16,11 @@ class Player: ObservableObject {
     @Published var shotsOnNet = 0
     @Published var goals = 0
     @Published var assists = 0
+    @Published var shifts: [DateInterval] = []
+    @Published var numberOfShifts = 0
+    var shiftStart = Date()
+    
+    
     
     init(name: String, number: Int, onIce: Bool = false) {
         self.name = name
@@ -24,9 +29,18 @@ class Player: ObservableObject {
     }
     
     func playPlayer() {
-        onIce.toggle()
+        onIce = true
+        numberOfShifts += 1
+        self.shiftStart = .now
+        print(shiftStart)
     }
     
+    func benchPlayer() {
+        onIce = false
+        print(shiftStart)
+        self.shifts.append(DateInterval(start: shiftStart, end: .now))
+        print(shifts[0].description)
+    }
     
 }
 

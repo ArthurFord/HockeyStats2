@@ -20,9 +20,8 @@ struct BenchView: View {
                             team.onIceTeam.append(player)
                             if let index = team.onIceTeam.firstIndex(of: team.selectedPlayer()) {
                                 team.onIceTeam.remove(at: index)
-                                
                             }
-                            player.onIce = true
+                            player.playPlayer()
                             team.selectedPlayer().onIce = false
                             team.selectedPlayer().isSelected = false
                         }

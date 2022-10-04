@@ -17,11 +17,12 @@ struct OnIceView: View {
                     PlayerView(player: player)
                         .padding(.all)
                         .gesture(LongPressGesture(minimumDuration: 1).onEnded({ value in
-                            player.onIce = false
                             if let index = team.onIceTeam.firstIndex(of: team.selectedPlayer()) {
                                 team.onIceTeam.remove(at: index)
+                                team.selectedPlayer().benchPlayer()
                                 team.selectedPlayer().isSelected = false
                             }
+                            
                         }))
                     
                         .highPriorityGesture(TapGesture().onEnded({ value in

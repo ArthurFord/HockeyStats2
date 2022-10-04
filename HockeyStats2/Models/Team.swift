@@ -29,6 +29,8 @@ class Team: ObservableObject {
             }
             
         }
-        return Player(name: "None", number: 00)
+        return Player(name: "None", number: -1)
     }
+    
+    
 }
