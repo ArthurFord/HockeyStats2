@@ -11,6 +11,16 @@
 		CE8225C028E9ADC90082D7D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8225BF28E9ADC90082D7D8 /* ContentView.swift */; };
 		CE8225C228E9ADCB0082D7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8225C128E9ADCB0082D7D8 /* Assets.xcassets */; };
 		CE8225C528E9ADCB0082D7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8225C428E9ADCB0082D7D8 /* Preview Assets.xcassets */; };
+		CE8225CC28E9B2E60082D7D8 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8225CB28E9B2E60082D7D8 /* CanvasView.swift */; };
+		CE8225CE28E9B3670082D7D8 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8225CD28E9B3670082D7D8 /* CanvasViewModel.swift */; };
+		CE8225D028EB01EE0082D7D8 /* ShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8225CF28EB01EE0082D7D8 /* ShotView.swift */; };
+		CEFA2BB428EB0C81004BEAB5 /* OnIceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA2BB328EB0C81004BEAB5 /* OnIceView.swift */; };
+		CEFA2BB628EB0CE1004BEAB5 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA2BB528EB0CE1004BEAB5 /* Team.swift */; };
+		CEFA2BB828EB1CA0004BEAB5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA2BB728EB1CA0004BEAB5 /* Player.swift */; };
+		CEFA2BBA28EB1E06004BEAB5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA2BB928EB1E06004BEAB5 /* PlayerView.swift */; };
+		CEFA2BBC28EB5A6C004BEAB5 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA2BBB28EB5A6C004BEAB5 /* GoalView.swift */; };
+		CEFA2BC228EB618C004BEAB5 /* BlackOpsOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEFA2BC128EB618C004BEAB5 /* BlackOpsOne-Regular.ttf */; };
+		CEFA2BC428EB631F004BEAB5 /* BenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA2BC328EB631F004BEAB5 /* BenchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		CE8225BF28E9ADC90082D7D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE8225C128E9ADCB0082D7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8225C428E9ADCB0082D7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8225CB28E9B2E60082D7D8 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		CE8225CD28E9B3670082D7D8 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		CE8225CF28EB01EE0082D7D8 /* ShotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotView.swift; sourceTree = "<group>"; };
+		CEFA2BB328EB0C81004BEAB5 /* OnIceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnIceView.swift; sourceTree = "<group>"; };
+		CEFA2BB528EB0CE1004BEAB5 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		CEFA2BB728EB1CA0004BEAB5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CEFA2BB928EB1E06004BEAB5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		CEFA2BBB28EB5A6C004BEAB5 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		CEFA2BC028EB5ED6004BEAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEFA2BC128EB618C004BEAB5 /* BlackOpsOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BlackOpsOne-Regular.ttf"; sourceTree = "<group>"; };
+		CEFA2BC328EB631F004BEAB5 /* BenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,19 @@
 		CE8225BC28E9ADC90082D7D8 /* HockeyStats2 */ = {
 			isa = PBXGroup;
 			children = (
+				CEFA2BC028EB5ED6004BEAB5 /* Info.plist */,
+				CEFA2BBD28EB5E06004BEAB5 /* fonts */,
 				CE8225BD28E9ADC90082D7D8 /* HockeyStats2App.swift */,
+				CE8225CD28E9B3670082D7D8 /* CanvasViewModel.swift */,
 				CE8225BF28E9ADC90082D7D8 /* ContentView.swift */,
+				CE8225CB28E9B2E60082D7D8 /* CanvasView.swift */,
+				CE8225CF28EB01EE0082D7D8 /* ShotView.swift */,
+				CEFA2BBB28EB5A6C004BEAB5 /* GoalView.swift */,
+				CEFA2BB928EB1E06004BEAB5 /* PlayerView.swift */,
+				CEFA2BB328EB0C81004BEAB5 /* OnIceView.swift */,
+				CEFA2BC328EB631F004BEAB5 /* BenchView.swift */,
+				CEFA2BB528EB0CE1004BEAB5 /* Team.swift */,
+				CEFA2BB728EB1CA0004BEAB5 /* Player.swift */,
 				CE8225C128E9ADCB0082D7D8 /* Assets.xcassets */,
 				CE8225C328E9ADCB0082D7D8 /* Preview Content */,
 			);
@@ -65,6 +97,14 @@
 				CE8225C428E9ADCB0082D7D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEFA2BBD28EB5E06004BEAB5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA2BC128EB618C004BEAB5 /* BlackOpsOne-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFA2BC228EB618C004BEAB5 /* BlackOpsOne-Regular.ttf in Resources */,
 				CE8225C528E9ADCB0082D7D8 /* Preview Assets.xcassets in Resources */,
 				CE8225C228E9ADCB0082D7D8 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFA2BC428EB631F004BEAB5 /* BenchView.swift in Sources */,
+				CEFA2BBA28EB1E06004BEAB5 /* PlayerView.swift in Sources */,
+				CE8225CE28E9B3670082D7D8 /* CanvasViewModel.swift in Sources */,
 				CE8225C028E9ADC90082D7D8 /* ContentView.swift in Sources */,
+				CEFA2BB628EB0CE1004BEAB5 /* Team.swift in Sources */,
 				CE8225BE28E9ADC90082D7D8 /* HockeyStats2App.swift in Sources */,
+				CEFA2BB828EB1CA0004BEAB5 /* Player.swift in Sources */,
+				CEFA2BB428EB0C81004BEAB5 /* OnIceView.swift in Sources */,
+				CEFA2BBC28EB5A6C004BEAB5 /* GoalView.swift in Sources */,
+				CE8225D028EB01EE0082D7D8 /* ShotView.swift in Sources */,
+				CE8225CC28E9B2E60082D7D8 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +320,14 @@
 				DEVELOPMENT_TEAM = SLB347Y94F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HockeyStats2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +335,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = info.arthurford.HockeyStats2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -299,11 +355,14 @@
 				DEVELOPMENT_TEAM = SLB347Y94F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HockeyStats2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +370,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = info.arthurford.HockeyStats2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
